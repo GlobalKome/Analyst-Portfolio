@@ -30,9 +30,11 @@
 - [Conclusion](#conclusion)
 
 # Executive Summary
-This project aims to design and implement an Emergency Room (ER) Operations Dashboard that will help the hospital administration team make data-driven decisions to improve patient flow, satisfaction, and overall operational efficiency of the hospital departments.
+This project aims to design and implement an Emergency Room (ER) Operations Dashboard for 2024 that will help the hospital administration team make data-driven decisions to improve patient flow, satisfaction, and overall operational efficiency of the hospital departments in the following year.
+
 The Primary user is Dr. Collins (Hospital Administrator) who faces challenges such as uneven resource allocation, low patient satisfaction scores, and unpredictable wait time.
 
+The dashboard will analyze key metrics including average patient wait times, patient satisfaction scores, admission rates, referral patterns, and demographic trends. By visualizing these insights in a clear, easy to 
 # Objective
 - What is the key pain point?
   Dr Collins who is the Hospital Administrator wants to know which departments in 2024 are understaffed by looking at the watitime and       patient experience in those departments to identify which departments need more staffing or better coordination.
