@@ -1,12 +1,14 @@
 # Analyst-Portfolio
 
-## Table of Content
+# Table of Content
 - [Objective](#objective)
+- [Executive Summary](#executive-summary)
+
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-      - [Mockup](#mockup)
-      - [Tools](#tools)
+  - [Mockup](#mockup)
+  - [Tools](#tools)
 - [Development](#development)
    - [Pseudocode](#pseudocode)
    - [Data Exploration](#data-exploration)
@@ -27,8 +29,18 @@
     - [Potential Courses of Actions](#potential-courses-of-actions)
 - [Conclusion](#conclusion)
 
+# Executive Summary
+This project aims to design and implement an Emergency Room (ER) Operations Dashboard that will help the hospital administration team make data-driven decisions to improve patient flow, satisfaction, and overall operational efficiency of the hospital departments.
+The Primary user is Dr. Collins (Hospital Administrator) who faces challenges such as uneven resource allocation, low patient satisfaction scores, and unpredictable wait time.
+
+# Objective
+- What is the key pain point?
+  Dr Collins who is the Hospital Administrator wants to know which departments in 2024 are understaffed by looking at the watitime and       patient experience in those departments to identify which departments need more staffing or better coordination.
+
 ## User Story
 Dr. Collins is an Hospital Administrator with 15 years in healthcare operations and hospital management. He needs a dashboard to analyse Emergency Rooms (ER) data in the hospital.
 This dashboard should allow me to identify key operational patterns such as average patient wait times, department referral volumes, and satisfaction scores, broken down by demographics like age, gender and race.
 
 With this information, I can make more informed decisions about resource allocation, staffing schedules, and care process improvements - ultimately reducing wait times, improving patient satisfaction, and ensuring equitable healthcare delivery across all patient groups.
+
+
