@@ -34,7 +34,15 @@ This project aims to design and implement an Emergency Room (ER) Operations Dash
 
 The Primary user is Dr. Collins (Hospital Administrator) who faces challenges such as uneven resource allocation, low patient satisfaction scores, and unpredictable wait time.
 
-The dashboard will analyze key metrics including average patient wait times, patient satisfaction scores, admission rates, referral patterns, and demographic trends. By visualizing these insights in a clear, easy to 
+The dashboard will analyze key metrics including average patient wait times, patient satisfaction scores, admission rates, referral patterns, and demographic trends. By visualizing these insights in a clear, easy-to-use format within Excel, the Hospital Administrator will be able to:
+
+    1. Identify bottlenecks and peak periods in the ER.
+    2. Optimize staffing schedules and resource planning.
+    3. Target improvements in specific departments or patient groups.
+    4. Support compliance with quality standards and reporting requirements.
+
+Ultimately, this project supports the hospital’s mission to deliver timely, high-quality, and equitable emergency care — while providing leadership with actionable insights to drive continuous improvement.
+
 # Objective
 - What is the key pain point?
   Dr Collins who is the Hospital Administrator wants to know which departments in 2024 are understaffed by looking at the watitime and       patient experience in those departments to identify which departments need more staffing or better coordination.
