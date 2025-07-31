@@ -6,16 +6,10 @@
 - [User Story](#user-story)
 - [Tools](#tools)
 - [Development](#development)
-   - [Pseudocode](#pseudocode)
-   - [Data Exploration](#data-exploration)
    - [Data Cleaning](#data-cleaning)
-   - [Transform the Data](#transform-the-data)
-   - [Create the SQL View](#create-the-sql-view)
-- [Testing](#testing)
-   - [Data Quality Tests](#data-quality-tests)
+   - [Pivot Tables](#pivot-tables)
 - [Visualization](#visualization)
    - [Results](#results)
-   - [DAX Measures](#dax-measures)
 - [Analysis](#analysis)
     - [Findings](#findings)
     - [Validation](#validation)
@@ -63,4 +57,42 @@ In the initial data preparation phase, I performed the following tasks:
 2. Removing unnecessary columns by filtering for only the columns I needed
 3. Extract month, day of the week, and time from the datetime column to improve analysis
 
-## 
+## Pivot Tables
+### KPIs 
+- Total number of patients in 2024
+- Average patient score
+- Average patient wait time
+- Number of admitted or unadmitted patients
+
+### Analytical Questions
+1. What is the average patient wait time across different departments?
+2. Do wait times or satisfaction scores vary by age?
+3. Are wait times significantly higher during specific Months or hours?
+
+# Analysis
+## Findings
+1. What is the average patient wait time across different departments?
+| Departments | Avg Patient Wait time |
+| --- | --- |
+| Cardiology | 33.2 |
+| Gastroenterology | 34.9 |
+| General Practice | 34.3 |
+| Neurology | 36.3 |
+| None | 35.3 |
+| Orthopedics | 36.5 |
+| Physiotheraphy | 36.0 |
+| Renal | 30.5 |
+
+2. Do wait times or satisfaction scores vary by age?
+| Age | Avg Satisfaction Scores |
+| --- | --- |
+| 1-10 | 5.0 |
+| 11-20 | 5.1 |
+| 21-30 | 4.7 |
+| 31-40 | 5.2 |
+| 41-50 | 5.0 |
+| 51-60 | 5.2 |
+| 61-70 | 4.3 |
+| 71-80 | 4.1 |
+
+2. Are wait times significantly higher during specific Months or hours?
