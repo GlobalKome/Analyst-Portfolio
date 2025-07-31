@@ -12,11 +12,8 @@
    - [Results](#results)
 - [Analysis](#analysis)
     - [Findings](#findings)
-    - [Validation](#validation)
     - [Discovery](#discovery)
 - [Recommendations](#recommendations)
-    - [Potential ROI](#potential-roi)
-    - [Potential Courses of Actions](#potential-courses-of-actions)
 - [Conclusion](#conclusion)
 
 # Executive Summary
@@ -72,6 +69,7 @@ In the initial data preparation phase, I performed the following tasks:
 # Analysis
 ## Findings
 1. What is the average patient wait time across different departments?
+
 | Departments | Avg Patient Wait time |
 | --- | --- |
 | Cardiology | 33.2 |
@@ -83,7 +81,8 @@ In the initial data preparation phase, I performed the following tasks:
 | Physiotheraphy | 36.0 |
 | Renal | 30.5 |
 
-2. Do wait times or satisfaction scores vary by age?
+3. Do wait times or satisfaction scores vary by age?
+
 | Age | Avg Satisfaction Scores |
 | --- | --- |
 | 1-10 | 5.0 |
@@ -96,3 +95,17 @@ In the initial data preparation phase, I performed the following tasks:
 | 71-80 | 4.1 |
 
 2. Are wait times significantly higher during specific Months or hours?
+
+### Notes
+To zoom in to see the metrics more detailed, you would need to use the filter functions within the dashboard
+
+# Discovery
+We discovered that:
+1. On average, the highest number of patients comes in at 11 pm.
+2. Patients aged 30-50 have the highest patient satisfaction scores.
+3. The orthopaedic department has the highest average patient wait time.
+4. 
+
+# Recommendations
+# Conclusions
+
